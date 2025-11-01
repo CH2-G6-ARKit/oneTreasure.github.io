@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>One Treasure — Support</title>
+  <meta name="description" content="Official support for One Treasure — an Augmented Reality riddle adventure. Get help, FAQs, and contact information." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="One Treasure — Support" />
+  <meta property="og:description" content="Get help, FAQs, and contact info for the AR riddle adventure, One Treasure." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://raw.githubusercontent.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/main/og-image.png" />
+
+  <!-- Theming -->
+  <meta name="color-scheme" content="light dark" />
+  <style>
+    :root{
+      --bg: #0b0c10;
+      --card:#111217;
+      --text:#e9eef5;
+      --muted:#b8c0cc;
+      --accent:#4fd1c5;
+      --accent-2:#9ae6b4;
+      --border:#1c1f26;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f7fafc; --card:#ffffff; --text:#1a202c; --muted:#4a5568; --accent:#0ea5e9; --accent-2:#22c55e; --border:#e2e8f0; --shadow: 0 10px 25px rgba(2,6,23,.06);
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--text);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Inter, "Helvetica Neue", Arial, "Apple Color Emoji","Segoe UI Emoji";}
+    a{color:var(--accent);text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:980px;margin:0 auto;padding:32px 20px}
+    header{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:20px 0}
+    .brand{display:flex;align-items:center;gap:12px}
+    .logo{width:40px;height:40px;border-radius:10px;background:linear-gradient(135deg,var(--accent),var(--accent-2));box-shadow:var(--shadow)}
+    .title{font-weight:700;font-size:1.1rem}
+    .pill{border:1px solid var(--border);padding:6px 10px;border-radius:999px;color:var(--muted)}
+    .hero{margin:16px 0 28px;background:linear-gradient(135deg,rgba(79,209,197,.12),rgba(154,230,180,.08));border:1px solid var(--border);border-radius:18px;padding:26px 22px;box-shadow:var(--shadow)}
+    .hero h1{margin:0 0 6px;font-size:1.8rem;line-height:1.25}
+    .hero p{margin:0;color:var(--muted)}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px;margin-top:22px}
+    @media (min-width:860px){.grid{grid-template-columns:2fr 1fr}}
+    .card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:18px 18px 16px;box-shadow:var(--shadow)}
+    .card h2{margin:0 0 8px;font-size:1.1rem}
+    .list{margin:0;padding-left:18px}
+    .kbadges{display:flex;flex-wrap:wrap;gap:8px;margin-top:8px}
+    .kbadges span{border:1px solid var(--border);background:transparent;border-radius:999px;padding:4px 10px;color:var(--muted);font-size:.9rem}
+    .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:12px}
+    .btn{display:inline-block;background:var(--accent);color:white;padding:10px 14px;border-radius:12px;font-weight:600;box-shadow:var(--shadow)}
+    .btn.secondary{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+    .small{color:var(--muted);font-size:.92rem}
+    footer{margin:28px 0 8px;color:var(--muted);font-size:.9rem}
+    code{background:rgba(0,0,0,.2);padding:.1rem .35rem;border-radius:6px;border:1px solid var(--border)}
+    .hr{height:1px;background:var(--border);margin:22px 0}
+    details{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:10px 12px}
+    details+details{margin-top:10px}
+    summary{cursor:pointer;font-weight:600}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header aria-label="Site header">
+      <div class="brand">
+        <div class="logo" aria-hidden="true"></div>
+        <div class="title">One Treasure <span class="pill">Support</span></div>
+      </div>
+      <a class="pill" href="https://apps.apple.com/" aria-label="View on the App Store">View on App Store</a>
+    </header>
+
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Help & Support for One Treasure</h1>
+      <p>AR riddle adventure — solve puzzles to unlock islands and uncover the treasure.</p>
+      <div class="cta">
+        <a class="btn" href="mailto:support@onetreasuregame.com">Email Support</a>
+        <!-- Replace USER and REPO below -->
+        <a class="btn secondary" href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues/new/choose">Report a Bug</a>
+      </div>
+    </section>
+
+    <div class="grid">
+      <main class="card" aria-labelledby="about-title">
+        <h2 id="about-title">About the Game</h2>
+        <p><strong>One Treasure</strong> is an Augmented Reality puzzle adventure. Explore 3D islands in your space, find clues, and solve riddles. Each solved riddle unlocks the next island—get closer to the ultimate treasure with every step.</p>
+        <div class="hr"></div>
+
+        <h2>Quick Start</h2>
+        <ol class="list">
+          <li>Grant <strong>Camera</strong> access on first launch.</li>
+          <li>Find a well-lit, open area for best AR tracking.</li>
+          <li>Move your device to scan surfaces and reveal clues.</li>
+          <li>Solve the island’s riddle to unlock the next one.</li>
+        </ol>
+
+        <div class="hr"></div>
+        <h2>FAQs</h2>
+
+        <details>
+          <summary>The AR scene won’t load — what should I do?</summary>
+          <p>Check camera permission in <em>Settings → One Treasure → Camera</em>. Ensure you’re in a bright area and move the device to scan surfaces. Restart the app if needed.</p>
+        </details>
+        <details>
+          <summary>My progress isn’t saving.</summary>
+          <p>Update to the latest version from the App Store. If the issue persists, tap <em>Email Support</em> and include your device model and iOS version.</p>
+        </details>
+        <details>
+          <summary>Do I need an internet connection?</summary>
+          <p>No. After installation, you can play offline.</p>
+        </details>
+        <details>
+          <summary>Which devices are supported?</summary>
+          <p>iPhone and iPad models that support ARKit (A9 chip or newer) and iOS/iPadOS versions supported by the App Store listing.</p>
+        </details>
+
+        <div class="hr"></div>
+        <h2>Contact & Feedback</h2>
+        <p>We’re improving the game continuously. Share ideas, report bugs, or ask for help:</p>
+        <ul class="list">
+          <li>📧 <a href="mailto:support@onetreasuregame.com">support@onetreasuregame.com</a></li>
+          <li>🐞 <a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues/new/choose">Create a GitHub issue</a></li>
+        </ul>
+        <p class="small">Include steps to reproduce, screenshots, and your device/iOS version when possible.</p>
+      </main>
+
+      <aside class="card" aria-labelledby="features-title">
+        <h2 id="features-title">Features</h2>
+        <ul class="list">
+          <li>Immersive <strong>AR</strong> exploration</li>
+          <li>Interactive <strong>3D islands</strong></li>
+          <li><strong>Riddle</strong>-gated progression</li>
+          <li><strong>Spatial audio</strong> ambiance</li>
+          <li>Offline play</li>
+        </ul>
+
+        <h2 style="margin-top:14px;">Useful Links</h2>
+        <ul class="list">
+          <li><a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME">Source Repository</a></li>
+          <li><a href="https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME/issues">Issue Tracker</a></li>
+          <li><a href="./privacy.html">Privacy Policy</a> <!-- optional, but recommended for App Store --></li>
+        </ul>
+
+        <h2 style="margin-top:14px;">Keywords</h2>
+        <div class="kbadges" aria-label="App keywords">
+          <span>AR</span><span>Augmented Reality</span><span>Riddle</span><span>Puzzle</span><span>Adventure</span><span>Treasure</span><span>Island</span><span>Quest</span>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      © <span id="year"></span> One Treasure. All rights reserved.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
